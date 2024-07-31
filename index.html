@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1 -->
+    <h3>alert on a Click</h3>
+    <a href="javaScript:void(0)" onclick="alertonClick()">Click me</a>
+    <!-- 2 -->
+    <h2>Mobile Phone Lockup:</h2>
+    <img src="img/pic1.jpg" alt="Mobile 1" onclick="mobile1()" width="100">
+    <img src="img/pic2.jpg" alt="Mobile 2" onclick="mobile2()" width="100">
+    <img src="img/pic1.jpg" alt="Mobile 3" onclick="mobile3()" width="100">
+    
+        <br><br>
+        <!-- 3 -->
+    <h2>Student Records Table:</h2>
+    <table id="studentTable">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>Jhone</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Doe</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Mark</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>James</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(this)">Delete</button></td>
+        </tr>
+    </table>
+    <br><br>
+
+
+
+
+
+    <!-- 4: -->
+
+    <h2>Image Change on Hover:</h2>
+    <img onmouseenter="zoomIn(this)" onmouseout="zoomOut(this)"
+        src="images/hands-protecting-globe-green-tree-tropical-nature-summer-background-ecology-environment-concept-ai-generative-271656882.webp"
+        alt="Image 1" id="hoverImage" width="500">
+
+
+
+
+
+    <!-- 5: -->
+
+    <h2>Counter:</h2>
+    <div>
+        <button onclick="increase()">Increase</button>
+        <button onclick="decrease()">Decrease</button>
+    </div>
+    <br>
+    <div>
+        &nbsp;&nbsp; Counter Value: <span id="counter">0</span>
+    </div>
+    <br><br>
+
+    <script  src="app.js"></script>
+</body>
+</html>

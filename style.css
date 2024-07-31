@@ -1,0 +1,30 @@
+h3{
+    color: rgba(89, 43, 218, 0.993);
+}
+table button {
+    width: 100%;
+    padding: 5px;
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+button {
+    width: 10%;
+    padding: 5px;
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
